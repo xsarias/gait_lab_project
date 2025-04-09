@@ -1,10 +1,10 @@
 # 🤖 GAIT LABORATORY AGENT SYSTEMS DESIGN ✏️
 This agent has a particular architecture, so is important to define all components, sensors, actuators, inputs, outputs, all of these help to design a system diagram with the relationships, modules and data flow. <br>
-## System requeriments
+## ✅ System requeriments
+The requirements section defines how sensors, transmitters and reward functions are integrated within the gait lab environment. It also describes the main use cases, focusing on the interactions between the agent and the environment to achieve goals such as adaptive learning, improved user performance, and personalization of clinical reports.
+📍[System requeriments document](Systems_requeriments.pdf)
 
-[System requeriments document](Systems_requeriments.pdf)
-
-## High-Level Architecture
+## 🛠️ High-Level Architecture
 ![system_diagram](GLA_system_diagram.jpg)
 <br>
 ### Motion Acquisition System (Dynamic module)
@@ -34,9 +34,9 @@ Is the intelligent module of the Gait Laboratory Agent responsible for analyzing
 The mobile app is the primary interface between the user and the Gait Lab Agent. It presents the data collected and analyzed by the system in a clear and interactive manner, facilitating the understanding and application of complex biomechanical information.<br>
 
 ### Feedback Loops
-In this system there is just one feedback loop, which is described by the following diagram:
+In this system there is just one feedback loop, which is described by the following diagram: <br>
 ![feedback](feed_back_loop.jpg)
 
-## Preliminary Implementation Outline
-Gymnasium and Stable-Baselines3 are identified as suitable frameworks for the implementation of reinforcement algorithms. Gymnasium allows the creation of customized environments that simulate human gait, while Stable-Baselines3 offers efficient implementations of Q-Learning and DQN, facilitating agent training and evaluation.
-[Preliminary implementation document](Preliminary_Implementation_Outline.pdf)
+## ⏱️Preliminary Implementation Outline
+Gymnasium and Stable-Baselines3 are identified as suitable frameworks for the implementation of reinforcement algorithms. Gymnasium allows the creation of customized environments that simulate human gait, while Stable-Baselines3 offers efficient implementations of Q-Learning and DQN, facilitating agent training and evaluation.<br>
+📍[Preliminary implementation document](PreliminaryImplementationOutline.pdf)
