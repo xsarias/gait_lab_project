@@ -1,1 +1,2 @@
-# gait_lab_project
+# 🚶🏻‍♀️GAIT LABORATORY AGENT 🤖
+The project aims to develop an artificial agent that analyzes human gait using sensors and simulations to improve movement efficiency. By capturing real-time data on foot position, joint angles, and gait patterns, the system applies artificial intelligence and chaos theory principles to detect irregularities and predict potential issues. Through advanced simulations, it refines its analysis, providing accurate diagnostics and personalized recommendations for athletes, individuals in rehabilitation, and healthcare professionals. This approach seeks to enhance performance, prevent injuries, and optimize locomotion in various environments.
