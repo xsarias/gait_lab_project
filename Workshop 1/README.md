@@ -39,4 +39,4 @@ In this system there is just one feedback loop, which is described by the follow
 
 ## ⏱️Preliminary Implementation Outline
 Gymnasium and Stable-Baselines3 are identified as suitable frameworks for the implementation of reinforcement algorithms. Gymnasium allows the creation of customized environments that simulate human gait, while Stable-Baselines3 offers efficient implementations of Q-Learning and DQN, facilitating agent training and evaluation.<br>
-📍[Preliminary implementation document](Preliminary Implementation Outline.pdf)
+📍[Preliminary implementation document](PreliminaryImplementationOutline.pdf)
