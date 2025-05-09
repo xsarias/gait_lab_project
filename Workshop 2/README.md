@@ -42,5 +42,5 @@ The system now has two new feedback cycles. The first one is present in the Insi
 One of these is the BIBO (Bounded Input, Bounded Output) stability, which refers to the fact that any bounded input expects a similarly bounded output. That is to say, in our agent we expect recommendations focused on physical aspects, since the input of the system is mostly physical data of the patient. On the other hand, the motor of the system agent starts being trained, so experience, time and reward signals present a convergent behavior since its outputs will be stabilizing as it learns and its number of errors decreases. In the same way, if the physical results of the patients improve thanks to the recommendations of the system, this indicates that the outputs of the system are stabilizing. <br>
 
 ## Iterative Design Outline
-The project plan was updated with new data structures, frameworks and algorithms that would be applied to implement advanced dynamic behaviors in the gait agent. Also, how we can test these dynamics.
-📍[Iterative design outline document](PreliminaryImplementationOutline.pdf)
+The project plan was updated with new data structures, frameworks and algorithms that would be applied to implement advanced dynamic behaviors in the gait agent. Also, how we can test these dynamics. <br>
+📍[Iterative design outline document](IterativeDesignOutlineGaitLabo.pf)
