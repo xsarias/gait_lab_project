@@ -43,4 +43,4 @@ One of these is the BIBO (Bounded Input, Bounded Output) stability, which refers
 
 ## Iterative Design Outline
 The project plan was updated with new data structures, frameworks and algorithms that would be applied to implement advanced dynamic behaviors in the gait agent. Also, how we can test these dynamics. <br>
-📍[Iterative design outline document](IterativeDesignOutlineGaitLabo.pf)
+📍[Iterative design outline document](IterativeDesignOutlineGaitLabo.pdf)
