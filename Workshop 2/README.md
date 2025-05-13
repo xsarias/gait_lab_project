@@ -2,7 +2,6 @@
 The goal of the workshop is to integrate systems science and cybernetic theory into the autonomous agent, focusing on real-time changes, feedback loops, and nonlinear behaviors. <br>
 
 To support this, the system diagram was updated: feedback loops were adjusted, adaptive logic was added to the Insight Engine, an external actor (specialist) was included to supervise and evaluate the system's recommendations, and new key inputs—such as training data and the patient's medical history—were incorporated to improve the walker's suggestions. \\
-**To see all Workshop report:**
 ![System_diagram_v2](diagrams/system_diagram.png)
 \\
 **To see Workshop Report Document:**
