@@ -3,8 +3,8 @@ The goal of the workshop is to integrate systems science and cybernetic theory i
 
 To support this, the system diagram was updated: feedback loops were adjusted, adaptive logic was added to the Insight Engine, an external actor (specialist) was included to supervise and evaluate the system's recommendations, and new key inputs—such as training data and the patient's medical history—were incorporated to improve the walker's suggestions. \\
 ![System_diagram_v2](diagrams/system_diagram.png)
-\\
-**To see Workshop Report Document:**
+
+**To see Workshop Report Document:** \\
 📍[Workshop 2 report](Workshop_2_report.pdf)
 ## 🌀 System Dynamics Analysis 🌀
 ### Causal Model as a Basis for Simulation
