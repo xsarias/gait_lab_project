@@ -1,24 +1,31 @@
 # 🤖 DYNAMICAL SYSTEMS ANALYSIS & DESIGN ✏️
-The objective of this workshop is to incorporate methods from systems science and cybernetic theory into the autonomous agent, understanding real-time changes, feedback loops and nonlinear behaviors.<br>
+The goal of the workshop is to integrate systems science and cybernetic theory into the autonomous agent, focusing on real-time changes, feedback loops, and nonlinear behaviors. <br>
 
-Therefore, we made some changes to the system diagram. We adjusted the feedbacks and incorporated new adaptive logic for Insight Engine, also, we add external actor (specialist) who helps to supervise and evaluate the recomendations of the system. In addition, we added new inputs that are very important for improving the walker recommendations, such as training data and the patient's medical history.<br>
+To support this, the system diagram was updated: feedback loops were adjusted, adaptive logic was added to the Insight Engine, an external actor (specialist) was included to supervise and evaluate the system's recommendations, and new key inputs—such as training data and the patient's medical history—were incorporated to improve the walker's suggestions. \\
+**To see all Workshop report:**
 ![System_diagram_v2](diagrams/system_diagram.png)
-
+\\
+**To see Workshop Report Document:**
+📍[Workshop 2 report](Workshop_2_report.pdf)
 ## 🌀 System Dynamics Analysis 🌀
 ### Causal Model as a Basis for Simulation
-The causal model developed represents a complex sensor-assisted gait assessment system, in which key components such as data collection, storage, processing by an inference engine (Insight Engine) and feedback to the patient through personalized recommendations are identified. <br>
+The causal model represents a complex sensor-assisted gait assessment system, highlighting key components like data collection, storage, processing via the Insight Engine, and personalized feedback to the patient.<br>
 
-This model allows the identification of feedback loops, nonlinear relationships and temporal dependencies, which helps to analyze their evolution over time, even without detailed quantitative simulation. <br>
+It enables the identification of feedback loops, nonlinear relationships, and temporal dependencies, supporting the analysis of system behavior over time—even without detailed quantitative simulations.
 ![Feedback_loop_InightEngine](diagrams/causal_diagram.png)
-To understand the diagram properly, it is important to recognize the symbols that compose it. The opposing triangles (in the shape of a valve) represent activities or processes that mark a transition between stages of the system. The squares represent stocks, meaning elements that accumulate or maintain a state over time. Arrows indicate relationships of influence: they point from the variable that has the effect to the variable that receives it.
 #### 📊 Non-linear Factors
-The following is a list of variables or relationships in the model that show non-linear behavior, which means that their effect is not proportional to their cause:
-- **Fatigue vs. Patient Gait**:
-The relationship between fatigue and patient gait quality presents a clear non-linearity, as the impact of fatigue is not proportional in all phases of exercise or rehabilitation. It should also be taken into account that factors such as the patient's habits, sleep quality and previous activities influence the way patient gaits. Initially, small increases in fatigue may have minimal effects on gait; however, once a certain physiological threshold is crossed, the deterioration in gait quality rapidly intensifies. This behavior implies that the system must be especially sensitive to detect early signs of fatigue, as a delay in intervention can trigger disproportionately negative consequences, such as loss of stability, risk of falls or aggravation of previous injuries. 
-- **Environment vs. Data Collection**: 
-The relationship between environmental conditions and data capture accuracy is clearly non-linear, as small changes in factors such as lighting, temperature, unexpected interference or environmental stability may not have an immediate impact on the sensors; however, when certain critical limits are exceeded, data quality degrades abruptly and significantly. For example, a small drop in illumination can be tolerated by optical sensors, but a more pronounced drop can lead to inaccurate readings or outright loss of data.
-- **Level of Personal Recomendations vs. Effectiveness of the intervention**
-This relationship represents a nonlinear learning curve, where at first, more general adjustments may have limited impact. However, as the system collects more patient-specific data (such as medical history, treatment responses, training data), smaller changes in personalization, made by the Insight Engine and specialist assessment, can generate much more noticeable improvements in efficacy. This reflects the fact that personalization does not always have an immediate impact, but once the system begins to understand the patient better, the return on that personalization increases exponentially.
+The model identifies several nonlinear relationships, where the effect is not directly proportional to the cause:
+
+- **Fatigue vs. Patient Gait:**
+Fatigue impacts gait quality in a nonlinear way. Initially, small increases in fatigue have little effect, but once a physiological threshold is crossed, gait deteriorates rapidly. Early detection is crucial, as delays can lead to serious consequences like falls or injury.
+
+- **Environment vs. Data Collection:**
+Environmental changes (e.g., lighting, temperature) may have minimal impact at first, but beyond certain limits, they significantly degrade sensor accuracy. For example, a slight drop in lighting may be tolerable, but a sharp drop can cause major data loss.
+
+- **Personalization vs. Intervention Effectiveness:**
+As the system gathers more patient-specific data, small personalized adjustments become increasingly effective. The benefit of personalization grows nonlinearly, with greater impact once the system better understands the individual.
+
+
 
 ### ⏱️ Time-Dependent Factors
 They are those that change over time and whose evolution influences the behavior of the system.
@@ -35,12 +42,11 @@ They are those that change over time and whose evolution influences the behavior
 - Insight Engine processing: Evolves according to the volume and quality of data received and accumulated personalization.
 
 ## 🔄 Feedback Loop Refinement 🔄
-The system now has two new feedback cycles. The first one is present in the Insight engine, in which it adjusts itself based on the data it processes and the results it generates to the point where it can be considered as self-learning by the element. On the other hand, the second cycle consists of a signal given by an external element considered a specialist, indicating how good the results of the Insight engine are. This last cycle can be considered a reward signal that indicates precisely and in real time how good a recommendation was in a specific case. <br>
+The system now includes two new feedback cycles. The first is within the Insight Engine, which adjusts itself based on the data it processes and the outcomes it generates—functioning as a form of self-learning. The second feedback loop involves an external specialist, who evaluates the quality of the Insight Engine’s recommendations. This external input acts as a real-time reward signal, indicating how effective each recommendation was in a specific case.<br>
 ![Feedback_loop_InightEngine](diagrams/feedback_loops.png)
 
 ### Stability and Convergence
-One of these is the BIBO (Bounded Input, Bounded Output) stability, which refers to the fact that any bounded input expects a similarly bounded output. That is to say, in our agent we expect recommendations focused on physical aspects, since the input of the system is mostly physical data of the patient. On the other hand, the motor of the system agent starts being trained, so experience, time and reward signals present a convergent behavior since its outputs will be stabilizing as it learns and its number of errors decreases. In the same way, if the physical results of the patients improve thanks to the recommendations of the system, this indicates that the outputs of the system are stabilizing. <br>
+The system applies the concept of BIBO (Bounded Input, Bounded Output) stability, meaning that bounded (limited) inputs should lead to similarly bounded outputs. Since the agent primarily receives physical data from the patient, it is expected to generate physical, focused recommendations. Additionally, as the agent is still in training, its behavior is convergent—over time and with reward signals, its outputs become more stable and accurate, with fewer errors. Improvements in patient outcomes further indicate that the system’s outputs are stabilizing effectively. <br>
 
 ## Iterative Design Outline
 The project plan was updated with new data structures, frameworks and algorithms that would be applied to implement advanced dynamic behaviors in the gait agent. Also, how we can test these dynamics. <br>
-📍[Iterative design outline document](IterativeDesignOutlineGaitLabo.pf)
