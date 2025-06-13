@@ -1,7 +1,7 @@
 #  🤖 Machine Learning & Cybernetics Implementation 🤖
 
 This project is the third phase of a multi-part academic investigation into the design and implementation of an intelligent gait laboratory agent. The agent is capable of analyzing human walking patterns and generating personalized recommendations based on real-time sensor data and reinforcement learning techniques.
-📍[Workshop 3 report](Workshop_3_report.pdf)
+📍[Workshop 3 report](workshop_3_report.pdf)
 ## 🎯 Objectives
 
 - Integrate previous system modeling (Workshops 1 & 2) with Machine Learning.
