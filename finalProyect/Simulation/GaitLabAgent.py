@@ -34,6 +34,7 @@ class GaitlabAgent:
     ]]
         print(features.head())
         features.to_csv("features.csv", index=False)
+    
 
 sim = GaitlabAgent()
 sim.run()   
