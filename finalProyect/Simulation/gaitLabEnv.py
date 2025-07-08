@@ -64,6 +64,7 @@ class GaitEnv(gym.Env):
             self.df = features_train.copy()
             self.df["Recommendation"] = labels_train.values
         else:
+            print("Train with eval")
             self.df = features_eval.copy()
             self.df["Recommendation"] = labels_eval.values
 
