@@ -1,0 +1,101 @@
+Age,Height,Weight,EnergyExpenditure,Force,Moment,EMG,ElectricPotential,GaitSpeed,StepFrequency,KneeAngle,PelvicDeviation,PreInjuries,MedicalHistory,FatigueLevel,Recommendation,PredictedRecommendation
+64,1.52,104.6,5.92,1150.64,13.67,0.54,78.29,1.29,99.7,84.72,15.18,Hip,Healthy,High,Supervised training,Improve posture
+64,1.8,77.2,4.19,866.25,47.21,0.545,87.85,1.46,81.8,45.18,16.65,Knee,Arthritis,Low,Improve posture,Improve posture
+65,1.82,76.7,3.53,607.47,107.63,0.806,83.09,0.65,111.2,31.3,6.77,Multiple,Healthy,Moderate,Improve posture,Maintain current routine
+77,1.65,54.9,2.47,914.31,21.04,0.883,68.99,1.54,128.1,7.8,3.33,Unknown,Healthy,Moderate,Maintain current routine,Maintain current routine
+20,1.85,57.5,2.61,1084.56,128.26,0.705,50.34,0.98,91.6,64.55,3.27,Hip,Healthy,Low,Rehabilitation exercises,Rehabilitation exercises
+65,1.69,66.2,3.24,507.55,92.23,0.474,62.03,1.21,101.8,51.96,17.07,Unknown,Stroke,Moderate,Use assistive device,Improve posture
+21,1.75,76.1,4.07,873.36,110.64,0.48,79.8,1.31,122.9,26.18,5.06,Multiple,Scoliosis,Low,Rehabilitation exercises,Maintain current routine
+66,1.6,53.6,2.96,491.59,85.59,0.892,72.96,0.93,107.4,86.99,15.93,Unknown,Scoliosis,Low,Improve posture,Improve posture
+43,1.98,78.0,4.26,909.52,17.14,0.581,92.23,0.58,125.5,78.04,10.66,Ankle,Healthy,Low,Improve posture,Use assistive device
+76,1.47,45.3,2.67,861.82,39.88,0.864,66.72,1.08,86.0,52.14,10.06,Unknown,Arthritis,Low,Improve posture,Improve posture
+20,1.65,68.4,2.74,514.08,134.38,0.332,71.42,0.46,92.0,52.48,3.85,Knee,Healthy,Moderate,Improve posture,Maintain current routine
+42,1.59,84.4,3.72,431.57,116.79,0.671,52.01,0.62,115.8,77.25,1.75,Unknown,Healthy,Moderate,Improve posture,Supervised training
+58,1.67,57.4,2.35,490.06,14.48,0.735,63.05,0.75,126.0,5.26,2.88,Unknown,Healthy,High,Supervised training,Maintain current routine
+26,1.8,54.1,2.3,477.23,158.27,0.093,96.77,1.66,90.2,15.12,15.91,Unknown,Stroke,Low,Use assistive device,Improve posture
+31,1.77,64.4,2.27,1196.35,36.75,0.699,52.78,1.04,129.7,81.89,19.83,Hip,Stroke,Moderate,Use assistive device,Rehabilitation exercises
+61,1.76,88.3,4.97,1183.28,66.11,0.496,71.91,0.94,115.5,88.62,15.63,Unknown,Parkinson,Low,Use assistive device,Maintain current routine
+45,1.7,91.7,4.15,1141.11,73.47,0.939,62.99,0.97,90.6,69.83,15.07,Unknown,Stroke,High,Use assistive device,Rehabilitation exercises
+78,1.77,78.6,4.65,954.03,64.29,0.237,70.57,1.61,113.3,75.09,8.36,Unknown,Arthritis,Low,Maintain current routine,Maintain current routine
+18,1.59,74.0,4.03,717.61,195.69,0.357,98.49,0.51,107.2,48.2,1.77,Unknown,Parkinson,High,Use assistive device,Improve posture
+57,1.72,40.0,2.28,512.44,10.28,0.139,63.6,0.41,107.7,24.61,18.53,Unknown,Scoliosis,Moderate,Improve posture,Improve posture
+33,1.64,80.2,4.09,426.55,12.79,0.317,88.64,1.36,127.1,12.03,18.3,Unknown,Stroke,Moderate,Use assistive device,Improve posture
+56,1.56,64.9,2.84,810.13,189.3,0.563,90.94,1.46,125.5,68.57,5.43,Unknown,Healthy,Low,Maintain current routine,Improve posture
+31,1.73,66.6,2.56,491.95,130.83,0.635,94.23,1.76,120.1,42.76,13.73,Unknown,Healthy,High,Supervised training,Rehabilitation exercises
+67,1.52,61.6,2.24,722.3,133.22,0.464,93.28,0.72,116.9,83.76,4.77,Unknown,Healthy,Moderate,Improve posture,Improve posture
+19,1.66,51.6,2.63,436.52,160.7,0.884,91.33,0.48,94.6,80.2,2.15,Hip,Healthy,Moderate,Improve posture,Maintain current routine
+76,1.74,65.4,2.4,1085.74,18.9,0.726,91.29,1.75,122.3,33.01,17.39,Unknown,Healthy,Low,Improve posture,Rehabilitation exercises
+50,1.69,69.6,3.04,1145.4,109.08,0.228,62.98,1.56,121.1,38.96,7.57,Unknown,Healthy,Low,Maintain current routine,Use assistive device
+42,1.78,46.5,2.51,931.99,86.82,0.791,50.96,1.38,128.8,24.8,12.92,Unknown,Healthy,Moderate,Improve posture,Improve posture
+44,1.71,75.6,4.1,715.66,12.3,0.015,91.18,0.46,121.0,86.3,11.62,Knee,Scoliosis,Moderate,Improve posture,Improve posture
+32,1.66,56.9,3.14,1084.59,47.85,0.169,55.58,1.14,85.6,3.1,6.28,Hip,Healthy,Moderate,Improve posture,Improve posture
+49,1.68,72.1,3.35,679.06,49.01,0.806,96.72,1.71,89.9,23.4,10.27,Unknown,Stroke,High,Use assistive device,Supervised training
+26,1.76,75.2,3.44,488.58,195.44,0.508,83.92,0.67,83.7,88.47,7.09,Unknown,Parkinson,Low,Use assistive device,Improve posture
+22,1.75,43.8,2.62,643.8,66.96,0.126,65.59,1.55,96.0,54.74,6.03,Hip,Healthy,Moderate,Rehabilitation exercises,Maintain current routine
+51,1.93,88.1,3.22,775.01,67.55,0.892,96.43,1.42,80.0,5.17,12.87,Knee,Healthy,High,Supervised training,Maintain current routine
+79,1.84,78.2,3.49,855.5,195.92,0.603,79.16,0.59,117.4,28.52,15.44,Unknown,Arthritis,Low,Improve posture,Improve posture
+61,1.88,56.7,2.31,526.36,152.24,0.915,59.26,1.17,125.5,51.38,2.51,Unknown,Healthy,High,Maintain current routine,Improve posture
+18,1.51,85.1,3.86,591.61,24.36,0.561,78.89,0.86,111.1,33.14,9.11,Ankle,Scoliosis,Moderate,Rehabilitation exercises,Maintain current routine
+44,1.77,80.6,3.19,893.65,40.72,0.078,67.38,1.28,127.8,35.03,19.63,Unknown,Healthy,Low,Improve posture,Improve posture
+29,1.78,89.5,3.74,708.41,158.32,0.237,70.86,0.89,125.5,18.99,13.69,Knee,Healthy,Low,Improve posture,Maintain current routine
+61,1.65,59.4,2.73,991.92,156.33,0.68,97.36,0.55,100.8,87.9,18.31,Unknown,Healthy,High,Supervised training,Improve posture
+64,1.68,82.3,4.61,832.64,30.02,0.922,95.42,0.59,95.6,11.35,16.39,Unknown,Parkinson,Low,Use assistive device,Improve posture
+56,1.64,77.4,2.87,1194.25,117.37,0.225,62.64,1.76,118.5,45.81,1.4,Unknown,Healthy,Low,Maintain current routine,Improve posture
+57,1.65,66.1,2.91,1060.78,19.95,0.433,58.54,0.9,122.5,68.44,7.05,Unknown,Healthy,High,Maintain current routine,Improve posture
+77,1.69,92.4,4.36,744.34,179.13,0.214,67.11,1.03,118.9,49.47,8.6,Knee,Arthritis,Low,Rehabilitation exercises,Improve posture
+56,1.62,106.0,4.86,456.81,153.31,0.583,51.63,0.47,127.7,85.35,2.89,Knee,Healthy,Low,Improve posture,Supervised training
+79,1.67,80.8,3.18,491.07,100.61,0.376,52.52,1.56,92.3,79.87,12.59,Knee,Healthy,Moderate,Improve posture,Improve posture
+52,1.8,65.9,3.33,1004.97,165.19,0.765,89.16,1.24,109.9,87.74,3.5,Unknown,Healthy,Low,Maintain current routine,Improve posture
+62,1.76,64.4,2.47,1091.65,69.25,0.878,83.39,0.8,105.4,5.74,8.11,Hip,Healthy,Moderate,Improve posture,Improve posture
+61,1.79,72.7,3.75,892.24,61.37,0.024,92.26,0.97,123.8,43.38,4.86,Multiple,Healthy,Low,Rehabilitation exercises,Supervised training
+41,1.79,64.4,2.75,738.04,33.85,0.202,65.88,0.58,113.2,57.85,11.29,Ankle,Healthy,Moderate,Improve posture,Rehabilitation exercises
+19,1.57,80.2,3.16,636.03,190.59,0.695,68.67,1.47,83.5,48.94,0.15,Unknown,Scoliosis,Moderate,Improve posture,Use assistive device
+42,1.72,63.3,2.26,834.42,104.29,0.178,69.88,1.63,101.4,32.37,16.51,Hip,Healthy,Low,Improve posture,Improve posture
+54,1.7,65.3,2.62,1126.09,185.98,0.553,67.54,1.21,94.2,25.43,16.86,Knee,Healthy,Low,Improve posture,Improve posture
+78,1.76,74.4,4.23,499.86,143.7,0.494,52.53,1.23,80.0,68.96,10.75,Knee,Parkinson,High,Use assistive device,Supervised training
+34,1.45,79.3,3.85,620.3,100.5,0.78,70.96,1.08,112.1,71.46,5.17,Unknown,Healthy,Low,Maintain current routine,Improve posture
+33,1.53,47.2,2.69,512.57,169.47,0.641,78.56,1.19,97.0,87.31,1.54,Multiple,Stroke,Moderate,Rehabilitation exercises,Improve posture
+22,1.71,80.9,2.87,950.18,22.99,0.08,64.86,0.67,108.0,10.26,10.92,Multiple,Healthy,Moderate,Improve posture,Improve posture
+47,1.62,52.6,2.03,808.35,77.06,0.819,59.67,1.28,111.8,63.69,10.04,Hip,Healthy,Low,Improve posture,Maintain current routine
+69,1.67,56.9,3.32,511.36,141.97,0.176,93.42,0.48,117.4,19.57,12.45,Unknown,Healthy,High,Supervised training,Improve posture
+75,1.53,60.0,2.21,486.42,196.42,0.382,58.63,1.01,86.1,38.55,19.29,Hip,Healthy,Low,Improve posture,Improve posture
+26,1.69,47.7,1.68,935.36,59.38,0.61,65.69,0.88,113.8,62.74,2.14,Unknown,Healthy,Low,Maintain current routine,Improve posture
+74,1.79,54.2,2.13,955.32,31.19,0.816,90.07,0.86,114.0,48.45,14.24,Unknown,Arthritis,Low,Improve posture,Maintain current routine
+53,1.72,75.5,3.24,880.52,92.24,0.823,96.58,1.21,121.4,20.47,7.51,Knee,Healthy,High,Rehabilitation exercises,Improve posture
+25,1.68,59.8,2.19,1077.58,138.06,0.849,83.98,1.22,89.1,23.23,12.54,Ankle,Healthy,Moderate,Improve posture,Use assistive device
+74,1.87,69.3,3.23,1042.88,159.9,0.278,83.64,0.81,122.9,28.62,2.04,Unknown,Healthy,High,Maintain current routine,Supervised training
+70,1.67,76.0,3.54,635.7,152.68,0.333,54.06,0.75,108.2,62.25,15.78,Ankle,Arthritis,Low,Improve posture,Improve posture
+47,1.67,61.0,3.52,858.82,57.59,0.997,88.01,0.8,122.7,20.96,17.45,Unknown,Stroke,Low,Use assistive device,Improve posture
+79,1.68,41.0,2.15,810.12,108.01,0.688,69.6,0.83,111.6,82.19,3.52,Unknown,Arthritis,Moderate,Maintain current routine,Maintain current routine
+53,1.74,66.2,2.63,620.61,93.16,0.162,91.62,0.63,128.9,73.05,12.9,Knee,Healthy,Low,Improve posture,Use assistive device
+46,1.43,100.0,5.5,744.42,156.51,0.889,83.87,1.3,110.5,78.12,9.85,Hip,Scoliosis,High,Rehabilitation exercises,Supervised training
+42,1.86,77.5,4.01,1164.09,194.02,0.628,50.81,1.19,112.9,63.93,9.86,Hip,Healthy,Moderate,Rehabilitation exercises,Supervised training
+79,1.84,75.9,3.9,737.63,63.67,0.279,80.59,1.25,120.4,20.45,10.36,Unknown,Scoliosis,Moderate,Improve posture,Improve posture
+34,1.71,77.5,2.78,668.17,49.69,0.634,88.47,0.57,82.7,27.87,14.83,Knee,Healthy,Moderate,Improve posture,Improve posture
+70,1.51,61.3,2.98,788.8,120.51,0.271,62.77,1.13,96.7,62.55,8.45,Unknown,Healthy,High,Maintain current routine,Improve posture
+60,1.71,62.8,3.7,921.78,97.34,0.54,86.65,1.07,120.9,70.2,14.39,Knee,Healthy,Low,Improve posture,Improve posture
+72,1.83,46.7,1.96,726.07,175.57,0.74,58.07,0.99,109.9,56.86,2.99,Hip,Arthritis,Moderate,Rehabilitation exercises,Improve posture
+47,1.7,83.5,3.1,406.13,122.78,0.076,82.94,0.81,96.0,12.1,15.9,Ankle,Healthy,High,Supervised training,Improve posture
+60,1.6,84.6,3.32,815.51,182.16,0.614,76.9,1.35,113.7,66.66,1.31,Unknown,Healthy,Moderate,Maintain current routine,Improve posture
+54,1.85,63.9,2.84,589.95,105.11,0.632,58.22,1.54,115.3,77.21,5.36,Unknown,Stroke,Moderate,Maintain current routine,Rehabilitation exercises
+49,1.64,76.0,2.73,648.97,89.15,0.333,62.56,0.9,95.4,22.29,7.52,Ankle,Arthritis,Moderate,Rehabilitation exercises,Supervised training
+70,1.66,60.0,3.49,1096.96,33.63,0.363,96.46,0.58,87.0,60.9,10.01,Hip,Healthy,Moderate,Improve posture,Improve posture
+42,1.66,81.9,3.99,704.32,156.86,0.399,63.27,1.26,129.1,25.45,5.84,Unknown,Healthy,High,Maintain current routine,Maintain current routine
+21,1.59,91.5,4.25,1155.23,143.93,0.284,61.22,1.17,113.2,40.17,19.21,Knee,Scoliosis,Moderate,Improve posture,Improve posture
+65,1.54,69.5,3.46,561.05,143.22,0.708,89.37,0.95,90.8,45.53,17.95,Unknown,Healthy,Low,Improve posture,Improve posture
+61,1.78,76.3,2.92,934.24,189.12,0.397,62.33,0.43,101.5,45.42,13.54,Unknown,Healthy,Low,Improve posture,Maintain current routine
+61,1.71,66.8,2.49,776.93,19.16,0.276,88.03,1.69,115.3,36.58,11.93,Hip,Healthy,High,Supervised training,Maintain current routine
+44,1.7,101.2,4.86,653.41,107.11,0.44,59.14,1.33,124.8,9.6,11.95,Unknown,Healthy,Low,Improve posture,Improve posture
+50,1.61,75.8,2.97,1046.59,61.02,0.585,91.16,0.62,89.3,84.87,10.71,Knee,Scoliosis,Moderate,Improve posture,Maintain current routine
+29,1.79,50.8,2.61,793.86,174.41,0.219,72.11,1.25,124.9,30.04,13.69,Unknown,Arthritis,Low,Improve posture,Rehabilitation exercises
+52,1.75,81.6,4.1,990.3,62.79,0.24,57.81,1.18,88.3,14.7,12.78,Unknown,Healthy,High,Supervised training,Use assistive device
+77,1.71,91.0,4.83,790.1,143.87,0.163,71.37,1.54,110.1,6.78,15.18,Unknown,Healthy,Low,Improve posture,Maintain current routine
+18,1.82,59.4,2.83,433.62,13.22,0.86,92.41,1.75,109.8,64.59,5.05,Knee,Healthy,Low,Rehabilitation exercises,Improve posture
+65,1.67,79.7,3.75,1164.74,197.12,0.628,82.98,0.54,91.3,21.74,13.47,Hip,Arthritis,Low,Improve posture,Use assistive device
+37,1.67,96.7,4.73,1112.08,38.8,0.902,86.57,1.72,99.3,64.62,9.28,Multiple,Healthy,Low,Rehabilitation exercises,Maintain current routine
+55,1.59,72.5,2.99,1164.84,128.73,0.04,57.69,0.41,97.0,44.28,12.26,Unknown,Parkinson,Low,Use assistive device,Use assistive device
+61,1.52,67.6,4.04,1171.58,162.75,0.958,58.77,0.88,90.3,4.75,10.51,Hip,Healthy,High,Supervised training,Rehabilitation exercises
+24,1.72,40.0,1.65,907.28,94.65,0.34,82.85,0.58,92.1,84.59,16.46,Hip,Scoliosis,Moderate,Improve posture,Use assistive device
+42,1.71,68.7,3.93,707.37,150.96,0.32,86.42,0.98,96.4,31.81,19.69,Unknown,Healthy,Low,Improve posture,Use assistive device
+69,1.71,40.0,2.02,531.77,162.66,0.258,88.85,1.34,86.9,82.85,16.73,Unknown,Healthy,Low,Improve posture,Improve posture
+20,1.55,77.9,4.08,484.38,23.64,0.414,72.7,0.58,99.7,69.19,8.54,Hip,Healthy,Moderate,Improve posture,Use assistive device
