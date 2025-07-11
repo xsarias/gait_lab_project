@@ -15,19 +15,14 @@ true_labels = []
 pred_labels = []
 
 print("\n📊 Evaluating model on test patients...\n")
-for _ in range(len(env.df)):
+for i in range(len(env.df)):
     obs, _ = env.reset()
     action, _ = model.predict(obs, deterministic=True)
     pred = env.actions_list[action]
     true = env.df.iloc[env.current_index]["Recommendation"]
     pred_labels.append(pred)
     true_labels.append(true)
-    for i in range(len(env.df)):
-        obs, _ = env.reset()
-        action, _ = model.predict(obs, deterministic=True)
-        pred = env.actions_list[action]
-        true = env.df.iloc[env.current_index]["Recommendation"]
-        print(f"🧍 Patient {i+1}: True → {true} | Predicted → {pred}")
+    print(f"🧍 Patient {i+1}: True → {true} | Predicted → {pred}")
 
 
 # Save predictions to a CSV file
